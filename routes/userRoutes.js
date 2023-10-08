@@ -22,10 +22,4 @@ router.get('/',async(req,res)=>{
     res.status(200).json(userres);
 })
 
-
-
-
-
-
-
 module.exports = router;
